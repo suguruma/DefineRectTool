@@ -1,10 +1,23 @@
-# Tauri + React + Typescript
+# README
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+## Function
 
-## Recommended IDE Setup
+1. Get Rectangle
+   1. Load Image
+   2. Draw Rect
+   3. Save Text
+2. Get Image
+   1. Load Video
+   2. Play Video
+   3. Set Image Size
+   4. Save Capture of Video
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+## Plan for Function
+
+1. Set Rectangle
+   1. Save Text as JSON or CSV
+2. Read Rectangle
+   1. Input Text of JSON or CSV
 
 ### Additional Setup
 
