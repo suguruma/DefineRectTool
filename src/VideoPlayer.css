@@ -1,0 +1,44 @@
+/* スライダーのスタイル */
+input[type="range"] {
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #007bff;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  /* ビデオのスタイル */
+  video {
+    max-width: 100%;
+    height: auto;
+    transition: width 0.3s ease; /* サイズ変更時のスムーズなアニメーション */
+  }
+  
+  /* 入力欄のスタイル */
+  input[type="number"] {
+    width: 100px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* キャンバスのスタイル */
+  canvas {
+    display: none;
+  }

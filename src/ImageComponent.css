@@ -1,0 +1,37 @@
+/* 入力フィールドのスタイル */
+input[type="file"] {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* 保存ボタンのスタイル */
+  button {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* 画像表示エリアのスタイル */
+  div {
+    border: 1px solid #ddd;
+  }
+  
+  /* 四角形の座標表示エリアのスタイル */
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
